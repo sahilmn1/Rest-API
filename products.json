@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Product 1",
+    "price": 150,
+    "featured": false,
+    "rating": 3.8,
+
+    "company": "apple"
+  },
+  {
+    "name": "Product 2",
+    "price": 300,
+    "featured": true,
+    "rating": 4.5,
+
+    "company": "samsung"
+  },
+  {
+    "name": "Product 3",
+    "price": 80,
+    "featured": true,
+    "rating": 4.1,
+
+    "company": "mi"
+  },
+  {
+    "name": "Product 4",
+    "price": 200,
+    "featured": false,
+    "rating": 3.9,
+
+    "company": "dell"
+  },
+  {
+    "name": "Product 5",
+    "price": 400,
+    "featured": true,
+    "rating": 4.8,
+
+    "company": "apple"
+  },
+  {
+    "name": "Product 6",
+    "price": 120,
+    "featured": false,
+    "rating": 4.2,
+
+    "company": "samsung"
+  },
+  {
+    "name": "Product 7",
+    "price": 250,
+    "featured": true,
+    "rating": 4.6,
+
+    "company": "mi"
+  },
+  {
+    "name": "Product 8",
+    "price": 180,
+    "featured": false,
+    "rating": 4.0,
+
+    "company": "apple"
+  },
+  {
+    "name": "Product 9",
+    "price": 350,
+    "featured": true,
+    "rating": 4.7,
+
+    "company": "samsung"
+  },
+  {
+    "name": "Product 10",
+    "price": 90,
+    "featured": false,
+    "rating": 3.5,
+
+    "company": "dell"
+  }
+]
