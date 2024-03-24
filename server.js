@@ -1,6 +1,6 @@
 require("dotenv").config();
 const express = require("express");
-
+const bodyParser = require("body-parser");
 const app = express();
 const products_routes = require("./routes/products");
 const connectDB = require("./db/connect");
@@ -9,6 +9,11 @@ app.get("/", (req, res) => {
   res.send("Hii API is Live!");
 });
 
+// Parse JSON bodies for POST requests
+app.use(bodyParser.json());
+
+// Parse URL-encoded bodies for POST requests
+app.use(bodyParser.urlencoded({ extended: true }));
 // Now we will create a middleware for this to access the products
 app.use("/api/products", products_routes);
 // Handle 404 errors
